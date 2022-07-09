@@ -149,31 +149,27 @@
                                 </div>
                             </div>
                         </div>
+
+
+
                         <div class="dropdown dib">
-                            <div class="header-icon" data-toggle="dropdown">
-                                <span class="user-avatar">John
-                                    <i class="ti-angle-down f-s-10"></i>
-                                </span>
-                                <div class="drop-down dropdown-profile dropdown-menu dropdown-menu-right">
-                                    
-                                    <div class="dropdown-content-body">
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="ti-user"></i>
-                                                    <span>Profile</span>
-                                                </a>
-                                            </li>
+                            <div class="header-icon">
+                          <a data-toggle="dropdown" href="#">
+                            {{session()->get('employee_name')}}
+                            <i class="fa fa-angle-down text-info"></i>
+                             </a>
+                    <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+                    <a href="#" class="dropdown-item">
+                    <i class="fa fa-user mr-2 text-info"></i>My profile
+                    </a>
+                <div class="dropdown-divider"></div>
+               <a href="{{ route('admin_logout') }}" class="dropdown-item">
+                <i class="fa fa-power-off mr-2 text-danger"></i> Logout
+               </a>
 
 
-                                            <li>
-                                                <a href="#">
-                                                    <i class="ti-power-off"></i>
-                                                    <span>Logout</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                   
+                                   
                                 </div>
                             </div>
                         </div>

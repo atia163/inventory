@@ -2,14 +2,14 @@
         <div class="nano">
             <div class="nano-content">
                 <ul>
-                    <div class="logo"><a href="index.html">
+                    <div class="logo"><a href="{{route('home')}}">
                             <!-- <img src="assets/images/logo.png" alt="" /> --><span>Focus</span></a></div>
                     <li class="label">Main</li>
                     <li><a href="{{route('home')}}"><i class="fa fa-dashboard"></i> Dashboard </a></li> 
                     <li><a class="sidebar-sub-toggle"><i class="ti-bar-chart-alt"></i> Employee <span
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
-                            <li><a href="#">Add Employee</a></li>
+                            <li><a href="{{route('add.employee')}}">Add Employee</a></li>
                             <li><a href="#">View Employee</a></li>
                             
                         </ul>

@@ -25,3 +25,5 @@
     <script src="{{asset('assets/admin')}}/js/lib/owl-carousel/owl.carousel-init.js"></script>
     <!-- scripit init-->
     <script src="{{asset('assets/admin')}}/js/dashboard2.js"></script>
+
+@yield('custom_js')

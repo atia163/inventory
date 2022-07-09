@@ -1,4 +1,5 @@
 @extends('admin.master')
+@section('outlook','Home')
 @section('content')
 <div class="row">
                         <div class="col-lg-3">
